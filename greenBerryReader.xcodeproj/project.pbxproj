@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9463BE4A14DF664700ACC57E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9463BE4914DF664700ACC57E /* UIKit.framework */; };
+		9463BE4C14DF664700ACC57E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9463BE4B14DF664700ACC57E /* Foundation.framework */; };
+		9463BE4E14DF664700ACC57E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9463BE4D14DF664700ACC57E /* CoreGraphics.framework */; };
+		9463BE5414DF664700ACC57E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9463BE5214DF664700ACC57E /* InfoPlist.strings */; };
+		9463BE5614DF664700ACC57E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9463BE5514DF664700ACC57E /* main.m */; };
+		9463BE5A14DF664700ACC57E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9463BE5914DF664700ACC57E /* AppDelegate.m */; };
+		9463BE5D14DF664700ACC57E /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9463BE5B14DF664700ACC57E /* MainStoryboard_iPhone.storyboard */; };
+		9463BE6014DF664700ACC57E /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9463BE5E14DF664700ACC57E /* MainStoryboard_iPad.storyboard */; };
+		9463BE6314DF664700ACC57E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9463BE6214DF664700ACC57E /* ViewController.m */; };
+		9463BE6B14DF664800ACC57E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9463BE6A14DF664800ACC57E /* SenTestingKit.framework */; };
+		9463BE6C14DF664800ACC57E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9463BE4914DF664700ACC57E /* UIKit.framework */; };
+		9463BE6D14DF664800ACC57E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9463BE4B14DF664700ACC57E /* Foundation.framework */; };
+		9463BE7514DF664800ACC57E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9463BE7314DF664800ACC57E /* InfoPlist.strings */; };
+		9463BE7814DF664800ACC57E /* greenBerryReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9463BE7714DF664800ACC57E /* greenBerryReaderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9463BE6E14DF664800ACC57E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9463BE3C14DF664700ACC57E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9463BE4414DF664700ACC57E;
+			remoteInfo = greenBerryReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9463BE4514DF664700ACC57E /* greenBerryReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = greenBerryReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9463BE4914DF664700ACC57E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9463BE4B14DF664700ACC57E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9463BE4D14DF664700ACC57E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9463BE5114DF664700ACC57E /* greenBerryReader-Info.plist */ = {isa = PBXFileReference; path = "greenBerryReader-Info.plist"; sourceTree = "<group>"; };
+		9463BE5314DF664700ACC57E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9463BE5514DF664700ACC57E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9463BE5714DF664700ACC57E /* greenBerryReader-Prefix.pch */ = {isa = PBXFileReference; path = "greenBerryReader-Prefix.pch"; sourceTree = "<group>"; };
+		9463BE5814DF664700ACC57E /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		9463BE5914DF664700ACC57E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9463BE5C14DF664700ACC57E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		9463BE5F14DF664700ACC57E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		9463BE6114DF664700ACC57E /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		9463BE6214DF664700ACC57E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9463BE6914DF664800ACC57E /* greenBerryReaderTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = greenBerryReaderTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9463BE6A14DF664800ACC57E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		9463BE7214DF664800ACC57E /* greenBerryReaderTests-Info.plist */ = {isa = PBXFileReference; path = "greenBerryReaderTests-Info.plist"; sourceTree = "<group>"; };
+		9463BE7414DF664800ACC57E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9463BE7614DF664800ACC57E /* greenBerryReaderTests.h */ = {isa = PBXFileReference; path = greenBerryReaderTests.h; sourceTree = "<group>"; };
+		9463BE7714DF664800ACC57E /* greenBerryReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = greenBerryReaderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9463BE4214DF664700ACC57E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9463BE4A14DF664700ACC57E /* UIKit.framework in Frameworks */,
+				9463BE4C14DF664700ACC57E /* Foundation.framework in Frameworks */,
+				9463BE4E14DF664700ACC57E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9463BE6514DF664700ACC57E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9463BE6B14DF664800ACC57E /* SenTestingKit.framework in Frameworks */,
+				9463BE6C14DF664800ACC57E /* UIKit.framework in Frameworks */,
+				9463BE6D14DF664800ACC57E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9463BE3A14DF664700ACC57E = {
+			isa = PBXGroup;
+			children = (
+				9463BE4F14DF664700ACC57E /* greenBerryReader */,
+				9463BE7014DF664800ACC57E /* greenBerryReaderTests */,
+				9463BE4814DF664700ACC57E /* Frameworks */,
+				9463BE4614DF664700ACC57E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9463BE4614DF664700ACC57E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9463BE4514DF664700ACC57E /* greenBerryReader.app */,
+				9463BE6914DF664800ACC57E /* greenBerryReaderTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9463BE4814DF664700ACC57E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9463BE4914DF664700ACC57E /* UIKit.framework */,
+				9463BE4B14DF664700ACC57E /* Foundation.framework */,
+				9463BE4D14DF664700ACC57E /* CoreGraphics.framework */,
+				9463BE6A14DF664800ACC57E /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9463BE4F14DF664700ACC57E /* greenBerryReader */ = {
+			isa = PBXGroup;
+			children = (
+				9463BE5814DF664700ACC57E /* AppDelegate.h */,
+				9463BE5914DF664700ACC57E /* AppDelegate.m */,
+				9463BE5B14DF664700ACC57E /* MainStoryboard_iPhone.storyboard */,
+				9463BE5E14DF664700ACC57E /* MainStoryboard_iPad.storyboard */,
+				9463BE6114DF664700ACC57E /* ViewController.h */,
+				9463BE6214DF664700ACC57E /* ViewController.m */,
+				9463BE5014DF664700ACC57E /* Supporting Files */,
+			);
+			path = greenBerryReader;
+			sourceTree = "<group>";
+		};
+		9463BE5014DF664700ACC57E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9463BE5114DF664700ACC57E /* greenBerryReader-Info.plist */,
+				9463BE5214DF664700ACC57E /* InfoPlist.strings */,
+				9463BE5514DF664700ACC57E /* main.m */,
+				9463BE5714DF664700ACC57E /* greenBerryReader-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9463BE7014DF664800ACC57E /* greenBerryReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				9463BE7614DF664800ACC57E /* greenBerryReaderTests.h */,
+				9463BE7714DF664800ACC57E /* greenBerryReaderTests.m */,
+				9463BE7114DF664800ACC57E /* Supporting Files */,
+			);
+			path = greenBerryReaderTests;
+			sourceTree = "<group>";
+		};
+		9463BE7114DF664800ACC57E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9463BE7214DF664800ACC57E /* greenBerryReaderTests-Info.plist */,
+				9463BE7314DF664800ACC57E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9463BE4414DF664700ACC57E /* greenBerryReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9463BE7B14DF664800ACC57E /* Build configuration list for PBXNativeTarget "greenBerryReader" */;
+			buildPhases = (
+				9463BE4114DF664700ACC57E /* Sources */,
+				9463BE4214DF664700ACC57E /* Frameworks */,
+				9463BE4314DF664700ACC57E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = greenBerryReader;
+			productName = greenBerryReader;
+			productReference = 9463BE4514DF664700ACC57E /* greenBerryReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9463BE6814DF664700ACC57E /* greenBerryReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9463BE7E14DF664800ACC57E /* Build configuration list for PBXNativeTarget "greenBerryReaderTests" */;
+			buildPhases = (
+				9463BE6414DF664700ACC57E /* Sources */,
+				9463BE6514DF664700ACC57E /* Frameworks */,
+				9463BE6614DF664700ACC57E /* Resources */,
+				9463BE6714DF664700ACC57E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9463BE6F14DF664800ACC57E /* PBXTargetDependency */,
+			);
+			name = greenBerryReaderTests;
+			productName = greenBerryReaderTests;
+			productReference = 9463BE6914DF664800ACC57E /* greenBerryReaderTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9463BE3C14DF664700ACC57E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 9463BE3F14DF664700ACC57E /* Build configuration list for PBXProject "greenBerryReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9463BE3A14DF664700ACC57E;
+			productRefGroup = 9463BE4614DF664700ACC57E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9463BE4414DF664700ACC57E /* greenBerryReader */,
+				9463BE6814DF664700ACC57E /* greenBerryReaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9463BE4314DF664700ACC57E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9463BE5414DF664700ACC57E /* InfoPlist.strings in Resources */,
+				9463BE5D14DF664700ACC57E /* MainStoryboard_iPhone.storyboard in Resources */,
+				9463BE6014DF664700ACC57E /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9463BE6614DF664700ACC57E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9463BE7514DF664800ACC57E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9463BE6714DF664700ACC57E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9463BE4114DF664700ACC57E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9463BE5614DF664700ACC57E /* main.m in Sources */,
+				9463BE5A14DF664700ACC57E /* AppDelegate.m in Sources */,
+				9463BE6314DF664700ACC57E /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9463BE6414DF664700ACC57E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9463BE7814DF664800ACC57E /* greenBerryReaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9463BE6F14DF664800ACC57E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9463BE4414DF664700ACC57E /* greenBerryReader */;
+			targetProxy = 9463BE6E14DF664800ACC57E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9463BE5214DF664700ACC57E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9463BE5314DF664700ACC57E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9463BE5B14DF664700ACC57E /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9463BE5C14DF664700ACC57E /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		9463BE5E14DF664700ACC57E /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9463BE5F14DF664700ACC57E /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		9463BE7314DF664800ACC57E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9463BE7414DF664800ACC57E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9463BE7914DF664800ACC57E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9463BE7A14DF664800ACC57E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9463BE7C14DF664800ACC57E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "greenBerryReader/greenBerryReader-Prefix.pch";
+				INFOPLIST_FILE = "greenBerryReader/greenBerryReader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9463BE7D14DF664800ACC57E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "greenBerryReader/greenBerryReader-Prefix.pch";
+				INFOPLIST_FILE = "greenBerryReader/greenBerryReader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9463BE7F14DF664800ACC57E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/greenBerryReader.app/greenBerryReader";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "greenBerryReader/greenBerryReader-Prefix.pch";
+				INFOPLIST_FILE = "greenBerryReaderTests/greenBerryReaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		9463BE8014DF664800ACC57E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/greenBerryReader.app/greenBerryReader";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "greenBerryReader/greenBerryReader-Prefix.pch";
+				INFOPLIST_FILE = "greenBerryReaderTests/greenBerryReaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9463BE3F14DF664700ACC57E /* Build configuration list for PBXProject "greenBerryReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9463BE7914DF664800ACC57E /* Debug */,
+				9463BE7A14DF664800ACC57E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9463BE7B14DF664800ACC57E /* Build configuration list for PBXNativeTarget "greenBerryReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9463BE7C14DF664800ACC57E /* Debug */,
+				9463BE7D14DF664800ACC57E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9463BE7E14DF664800ACC57E /* Build configuration list for PBXNativeTarget "greenBerryReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9463BE7F14DF664800ACC57E /* Debug */,
+				9463BE8014DF664800ACC57E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9463BE3C14DF664700ACC57E /* Project object */;
+}

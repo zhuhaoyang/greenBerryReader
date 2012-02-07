@@ -9,5 +9,16 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+	NSTimer *timer;
+	UIImageView *splashImageView;
+}
+
+@property (nonatomic, retain) NSTimer *timer;
+@property (nonatomic, retain) UIImageView *splashImageView;
+
+- (void)fadeScreen;
+- (void)finishedFading;
+- (void)showMainView;
 
 @end

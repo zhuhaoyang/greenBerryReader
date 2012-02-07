@@ -21,6 +21,19 @@
 		9463BE6D14DF664800ACC57E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9463BE4B14DF664700ACC57E /* Foundation.framework */; };
 		9463BE7514DF664800ACC57E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9463BE7314DF664800ACC57E /* InfoPlist.strings */; };
 		9463BE7814DF664800ACC57E /* greenBerryReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9463BE7714DF664800ACC57E /* greenBerryReaderTests.m */; };
+		946B9BFF14E0B68800B9B267 /* myBookshelf.m in Sources */ = {isa = PBXBuildFile; fileRef = 946B9BFD14E0B68800B9B267 /* myBookshelf.m */; };
+		946B9C0014E0B68800B9B267 /* myBookshelf.xib in Resources */ = {isa = PBXBuildFile; fileRef = 946B9BFE14E0B68800B9B267 /* myBookshelf.xib */; };
+		946B9C0514E0B6B600B9B267 /* icloudStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 946B9C0314E0B6B600B9B267 /* icloudStore.m */; };
+		946B9C0614E0B6B600B9B267 /* icloudStore.xib in Resources */ = {isa = PBXBuildFile; fileRef = 946B9C0414E0B6B600B9B267 /* icloudStore.xib */; };
+		946B9C0A14E0B6CA00B9B267 /* setting.m in Sources */ = {isa = PBXBuildFile; fileRef = 946B9C0814E0B6CA00B9B267 /* setting.m */; };
+		946B9C0B14E0B6CA00B9B267 /* setting.xib in Resources */ = {isa = PBXBuildFile; fileRef = 946B9C0914E0B6CA00B9B267 /* setting.xib */; };
+		946B9C0D14E0B9B900B9B267 /* startLog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 946B9C0C14E0B9B900B9B267 /* startLog.jpg */; };
+		94CB89E214E0BB230022E6D7 /* client.m in Sources */ = {isa = PBXBuildFile; fileRef = 94CB89E014E0BB230022E6D7 /* client.m */; };
+		94CB89E314E0BB230022E6D7 /* client.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94CB89E114E0BB230022E6D7 /* client.xib */; };
+		94CB89EF14E0BF160022E6D7 /* fav.png in Resources */ = {isa = PBXBuildFile; fileRef = 94CB89EC14E0BF160022E6D7 /* fav.png */; };
+		94CB89F014E0BF160022E6D7 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 94CB89ED14E0BF160022E6D7 /* home.png */; };
+		94CB89F114E0BF160022E6D7 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 94CB89EE14E0BF160022E6D7 /* search.png */; };
+		94CB89F714E0C6C20022E6D7 /* more.png in Resources */ = {isa = PBXBuildFile; fileRef = 94CB89F614E0C6C20022E6D7 /* more.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,22 +51,39 @@
 		9463BE4914DF664700ACC57E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9463BE4B14DF664700ACC57E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9463BE4D14DF664700ACC57E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		9463BE5114DF664700ACC57E /* greenBerryReader-Info.plist */ = {isa = PBXFileReference; path = "greenBerryReader-Info.plist"; sourceTree = "<group>"; };
+		9463BE5114DF664700ACC57E /* greenBerryReader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "greenBerryReader-Info.plist"; sourceTree = "<group>"; };
 		9463BE5314DF664700ACC57E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9463BE5514DF664700ACC57E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9463BE5714DF664700ACC57E /* greenBerryReader-Prefix.pch */ = {isa = PBXFileReference; path = "greenBerryReader-Prefix.pch"; sourceTree = "<group>"; };
-		9463BE5814DF664700ACC57E /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		9463BE5714DF664700ACC57E /* greenBerryReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "greenBerryReader-Prefix.pch"; sourceTree = "<group>"; };
+		9463BE5814DF664700ACC57E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9463BE5914DF664700ACC57E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9463BE5C14DF664700ACC57E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		9463BE5F14DF664700ACC57E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		9463BE6114DF664700ACC57E /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		9463BE6114DF664700ACC57E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9463BE6214DF664700ACC57E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9463BE6914DF664800ACC57E /* greenBerryReaderTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = greenBerryReaderTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9463BE6A14DF664800ACC57E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		9463BE7214DF664800ACC57E /* greenBerryReaderTests-Info.plist */ = {isa = PBXFileReference; path = "greenBerryReaderTests-Info.plist"; sourceTree = "<group>"; };
+		9463BE7214DF664800ACC57E /* greenBerryReaderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "greenBerryReaderTests-Info.plist"; sourceTree = "<group>"; };
 		9463BE7414DF664800ACC57E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		9463BE7614DF664800ACC57E /* greenBerryReaderTests.h */ = {isa = PBXFileReference; path = greenBerryReaderTests.h; sourceTree = "<group>"; };
+		9463BE7614DF664800ACC57E /* greenBerryReaderTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = greenBerryReaderTests.h; sourceTree = "<group>"; };
 		9463BE7714DF664800ACC57E /* greenBerryReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = greenBerryReaderTests.m; sourceTree = "<group>"; };
+		946B9BFC14E0B68800B9B267 /* myBookshelf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myBookshelf.h; sourceTree = "<group>"; };
+		946B9BFD14E0B68800B9B267 /* myBookshelf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myBookshelf.m; sourceTree = "<group>"; };
+		946B9BFE14E0B68800B9B267 /* myBookshelf.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = myBookshelf.xib; sourceTree = "<group>"; };
+		946B9C0214E0B6B600B9B267 /* icloudStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = icloudStore.h; sourceTree = "<group>"; };
+		946B9C0314E0B6B600B9B267 /* icloudStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = icloudStore.m; sourceTree = "<group>"; };
+		946B9C0414E0B6B600B9B267 /* icloudStore.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = icloudStore.xib; sourceTree = "<group>"; };
+		946B9C0714E0B6CA00B9B267 /* setting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = setting.h; sourceTree = "<group>"; };
+		946B9C0814E0B6CA00B9B267 /* setting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = setting.m; sourceTree = "<group>"; };
+		946B9C0914E0B6CA00B9B267 /* setting.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = setting.xib; sourceTree = "<group>"; };
+		946B9C0C14E0B9B900B9B267 /* startLog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = startLog.jpg; sourceTree = "<group>"; };
+		94CB89DF14E0BB230022E6D7 /* client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = client.h; sourceTree = "<group>"; };
+		94CB89E014E0BB230022E6D7 /* client.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = client.m; sourceTree = "<group>"; };
+		94CB89E114E0BB230022E6D7 /* client.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = client.xib; sourceTree = "<group>"; };
+		94CB89EC14E0BF160022E6D7 /* fav.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fav.png; sourceTree = "<group>"; };
+		94CB89ED14E0BF160022E6D7 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		94CB89EE14E0BF160022E6D7 /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		94CB89F614E0C6C20022E6D7 /* more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = more.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +150,18 @@
 				9463BE6114DF664700ACC57E /* ViewController.h */,
 				9463BE6214DF664700ACC57E /* ViewController.m */,
 				9463BE5014DF664700ACC57E /* Supporting Files */,
+				946B9BFC14E0B68800B9B267 /* myBookshelf.h */,
+				946B9BFD14E0B68800B9B267 /* myBookshelf.m */,
+				946B9BFE14E0B68800B9B267 /* myBookshelf.xib */,
+				946B9C0214E0B6B600B9B267 /* icloudStore.h */,
+				946B9C0314E0B6B600B9B267 /* icloudStore.m */,
+				946B9C0414E0B6B600B9B267 /* icloudStore.xib */,
+				946B9C0714E0B6CA00B9B267 /* setting.h */,
+				946B9C0814E0B6CA00B9B267 /* setting.m */,
+				946B9C0914E0B6CA00B9B267 /* setting.xib */,
+				94CB89DF14E0BB230022E6D7 /* client.h */,
+				94CB89E014E0BB230022E6D7 /* client.m */,
+				94CB89E114E0BB230022E6D7 /* client.xib */,
 			);
 			path = greenBerryReader;
 			sourceTree = "<group>";
@@ -127,6 +169,11 @@
 		9463BE5014DF664700ACC57E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				94CB89F614E0C6C20022E6D7 /* more.png */,
+				94CB89EC14E0BF160022E6D7 /* fav.png */,
+				94CB89ED14E0BF160022E6D7 /* home.png */,
+				94CB89EE14E0BF160022E6D7 /* search.png */,
+				946B9C0C14E0B9B900B9B267 /* startLog.jpg */,
 				9463BE5114DF664700ACC57E /* greenBerryReader-Info.plist */,
 				9463BE5214DF664700ACC57E /* InfoPlist.strings */,
 				9463BE5514DF664700ACC57E /* main.m */,
@@ -227,6 +274,15 @@
 				9463BE5414DF664700ACC57E /* InfoPlist.strings in Resources */,
 				9463BE5D14DF664700ACC57E /* MainStoryboard_iPhone.storyboard in Resources */,
 				9463BE6014DF664700ACC57E /* MainStoryboard_iPad.storyboard in Resources */,
+				946B9C0014E0B68800B9B267 /* myBookshelf.xib in Resources */,
+				946B9C0614E0B6B600B9B267 /* icloudStore.xib in Resources */,
+				946B9C0B14E0B6CA00B9B267 /* setting.xib in Resources */,
+				946B9C0D14E0B9B900B9B267 /* startLog.jpg in Resources */,
+				94CB89E314E0BB230022E6D7 /* client.xib in Resources */,
+				94CB89EF14E0BF160022E6D7 /* fav.png in Resources */,
+				94CB89F014E0BF160022E6D7 /* home.png in Resources */,
+				94CB89F114E0BF160022E6D7 /* search.png in Resources */,
+				94CB89F714E0C6C20022E6D7 /* more.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +320,10 @@
 				9463BE5614DF664700ACC57E /* main.m in Sources */,
 				9463BE5A14DF664700ACC57E /* AppDelegate.m in Sources */,
 				9463BE6314DF664700ACC57E /* ViewController.m in Sources */,
+				946B9BFF14E0B68800B9B267 /* myBookshelf.m in Sources */,
+				946B9C0514E0B6B600B9B267 /* icloudStore.m in Sources */,
+				946B9C0A14E0B6CA00B9B267 /* setting.m in Sources */,
+				94CB89E214E0BB230022E6D7 /* client.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +501,7 @@
 				9463BE7D14DF664800ACC57E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9463BE7E14DF664800ACC57E /* Build configuration list for PBXNativeTarget "greenBerryReaderTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +510,7 @@
 				9463BE8014DF664800ACC57E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -71,20 +71,21 @@
 {
 	NSMutableArray *controllerArray = [[NSMutableArray alloc] init];
 	
-	icloudStore *icloud = [[icloudStore alloc] initWithNibName:@"icloudStore" bundle:[NSBundle mainBundle]];
-	icloud.view.frame = CGRectMake(0, 0, 320, 480 - 108);
-	UINavigationController *nav1 = [[UINavigationController alloc] initWithRootViewController: icloud];
-	[icloud release];
+    myBookshelf *bookshelf = [[myBookshelf alloc] initWithNibName:@"myBookshelf" bundle:[NSBundle mainBundle]];
+	bookshelf.view.frame = CGRectMake(0, 0, 320, 480 - 108);
+
+	UINavigationController *nav1 = [[UINavigationController alloc] initWithRootViewController: bookshelf];
+	[bookshelf release];
 	nav1.navigationBar.barStyle = UIBarStyleBlack;
 	nav1.view.frame = CGRectMake(0, 0, 320, 480 - 20);
 	[controllerArray addObject:nav1];
 	[nav1 release];
 	
-	myBookshelf *bookshelf = [[myBookshelf alloc] initWithNibName:@"myBookshelf" bundle:[NSBundle mainBundle]];
-	bookshelf.view.frame = CGRectMake(0, 0, 320, 480 - 108);
-	UINavigationController *nav2 = [[UINavigationController alloc] initWithRootViewController:bookshelf];
+	icloudStore *icloud = [[icloudStore alloc] initWithNibName:@"icloudStore" bundle:[NSBundle mainBundle]];
+	icloud.view.frame = CGRectMake(0, 0, 320, 480 - 108);
+	UINavigationController *nav2 = [[UINavigationController alloc] initWithRootViewController:icloud];
 	nav2.navigationBar.barStyle = UIBarStyleBlack;
-	[bookshelf release];
+	[icloud release];
 	[controllerArray addObject:nav2];
 	[nav2 release];
     

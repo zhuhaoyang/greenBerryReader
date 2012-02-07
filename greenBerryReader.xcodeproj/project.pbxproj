@@ -143,6 +143,7 @@
 		9463BE4F14DF664700ACC57E /* greenBerryReader */ = {
 			isa = PBXGroup;
 			children = (
+				94CB89FC14E0CA2F0022E6D7 /* controller */,
 				9463BE5814DF664700ACC57E /* AppDelegate.h */,
 				9463BE5914DF664700ACC57E /* AppDelegate.m */,
 				9463BE5B14DF664700ACC57E /* MainStoryboard_iPhone.storyboard */,
@@ -150,18 +151,6 @@
 				9463BE6114DF664700ACC57E /* ViewController.h */,
 				9463BE6214DF664700ACC57E /* ViewController.m */,
 				9463BE5014DF664700ACC57E /* Supporting Files */,
-				946B9BFC14E0B68800B9B267 /* myBookshelf.h */,
-				946B9BFD14E0B68800B9B267 /* myBookshelf.m */,
-				946B9BFE14E0B68800B9B267 /* myBookshelf.xib */,
-				946B9C0214E0B6B600B9B267 /* icloudStore.h */,
-				946B9C0314E0B6B600B9B267 /* icloudStore.m */,
-				946B9C0414E0B6B600B9B267 /* icloudStore.xib */,
-				946B9C0714E0B6CA00B9B267 /* setting.h */,
-				946B9C0814E0B6CA00B9B267 /* setting.m */,
-				946B9C0914E0B6CA00B9B267 /* setting.xib */,
-				94CB89DF14E0BB230022E6D7 /* client.h */,
-				94CB89E014E0BB230022E6D7 /* client.m */,
-				94CB89E114E0BB230022E6D7 /* client.xib */,
 			);
 			path = greenBerryReader;
 			sourceTree = "<group>";
@@ -199,6 +188,57 @@
 				9463BE7314DF664800ACC57E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94CB89FC14E0CA2F0022E6D7 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				94CB8A0114E0CA940022E6D7 /* client */,
+				94CB8A0014E0CA850022E6D7 /* setting */,
+				94CB89FF14E0CA690022E6D7 /* iclodeStore */,
+				94CB89FE14E0CA4F0022E6D7 /* myBookshelf */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		94CB89FE14E0CA4F0022E6D7 /* myBookshelf */ = {
+			isa = PBXGroup;
+			children = (
+				946B9BFC14E0B68800B9B267 /* myBookshelf.h */,
+				946B9BFD14E0B68800B9B267 /* myBookshelf.m */,
+				946B9BFE14E0B68800B9B267 /* myBookshelf.xib */,
+			);
+			name = myBookshelf;
+			sourceTree = "<group>";
+		};
+		94CB89FF14E0CA690022E6D7 /* iclodeStore */ = {
+			isa = PBXGroup;
+			children = (
+				946B9C0214E0B6B600B9B267 /* icloudStore.h */,
+				946B9C0314E0B6B600B9B267 /* icloudStore.m */,
+				946B9C0414E0B6B600B9B267 /* icloudStore.xib */,
+			);
+			name = iclodeStore;
+			sourceTree = "<group>";
+		};
+		94CB8A0014E0CA850022E6D7 /* setting */ = {
+			isa = PBXGroup;
+			children = (
+				946B9C0714E0B6CA00B9B267 /* setting.h */,
+				946B9C0814E0B6CA00B9B267 /* setting.m */,
+				946B9C0914E0B6CA00B9B267 /* setting.xib */,
+			);
+			name = setting;
+			sourceTree = "<group>";
+		};
+		94CB8A0114E0CA940022E6D7 /* client */ = {
+			isa = PBXGroup;
+			children = (
+				94CB89DF14E0BB230022E6D7 /* client.h */,
+				94CB89E014E0BB230022E6D7 /* client.m */,
+				94CB89E114E0BB230022E6D7 /* client.xib */,
+			);
+			name = client;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

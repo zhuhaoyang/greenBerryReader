@@ -6,6 +6,10 @@
 //  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.
 //
 
+
+
+
+
 #import <SenTestingKit/SenTestingKit.h>
 
 @interface greenBerryReaderTests : SenTestCase

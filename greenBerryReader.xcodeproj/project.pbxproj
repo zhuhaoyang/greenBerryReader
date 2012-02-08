@@ -34,6 +34,12 @@
 		94CB89F014E0BF160022E6D7 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 94CB89ED14E0BF160022E6D7 /* home.png */; };
 		94CB89F114E0BF160022E6D7 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 94CB89EE14E0BF160022E6D7 /* search.png */; };
 		94CB89F714E0C6C20022E6D7 /* more.png in Resources */ = {isa = PBXBuildFile; fileRef = 94CB89F614E0C6C20022E6D7 /* more.png */; };
+		FD7AEBA014E207E300B3D95C /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7AEB9F14E207E300B3D95C /* GDataXMLNode.m */; };
+		FDB2E27714E2021000569C83 /* DatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB2E27014E2021000569C83 /* DatabaseManager.m */; };
+		FDB2E27814E2021000569C83 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB2E27214E2021000569C83 /* FMDatabaseAdditions.m */; };
+		FDB2E27914E2021000569C83 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB2E27414E2021000569C83 /* FMDatabase.m */; };
+		FDB2E27A14E2021000569C83 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB2E27614E2021000569C83 /* FMResultSet.m */; };
+		FDB2E27D14E2024000569C83 /* SQL.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB2E27C14E2024000569C83 /* SQL.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +90,20 @@
 		94CB89ED14E0BF160022E6D7 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
 		94CB89EE14E0BF160022E6D7 /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
 		94CB89F614E0C6C20022E6D7 /* more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = more.png; sourceTree = "<group>"; };
+		FD7AEB9D14E207E300B3D95C /* GDataDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataDefines.h; sourceTree = "<group>"; };
+		FD7AEB9E14E207E300B3D95C /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		FD7AEB9F14E207E300B3D95C /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		FD7AEBA214E2080E00B3D95C /* PublicDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicDefine.h; sourceTree = "<group>"; };
+		FDB2E26F14E2021000569C83 /* DatabaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseManager.h; sourceTree = "<group>"; };
+		FDB2E27014E2021000569C83 /* DatabaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseManager.m; sourceTree = "<group>"; };
+		FDB2E27114E2021000569C83 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		FDB2E27214E2021000569C83 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		FDB2E27314E2021000569C83 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		FDB2E27414E2021000569C83 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		FDB2E27514E2021000569C83 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		FDB2E27614E2021000569C83 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		FDB2E27B14E2024000569C83 /* SQL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQL.h; sourceTree = "<group>"; };
+		FDB2E27C14E2024000569C83 /* SQL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQL.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +163,9 @@
 		9463BE4F14DF664700ACC57E /* greenBerryReader */ = {
 			isa = PBXGroup;
 			children = (
+				FD7AEBA114E207EA00B3D95C /* global */,
+				FDB2E26714E2019E00569C83 /* FMDataBase */,
+				FDB2E26514E2019A00569C83 /* GData */,
 				94CB89FC14E0CA2F0022E6D7 /* controller */,
 				9463BE5814DF664700ACC57E /* AppDelegate.h */,
 				9463BE5914DF664700ACC57E /* AppDelegate.m */,
@@ -239,6 +262,41 @@
 				94CB89E114E0BB230022E6D7 /* client.xib */,
 			);
 			name = client;
+			sourceTree = "<group>";
+		};
+		FD7AEBA114E207EA00B3D95C /* global */ = {
+			isa = PBXGroup;
+			children = (
+				FD7AEBA214E2080E00B3D95C /* PublicDefine.h */,
+			);
+			name = global;
+			sourceTree = "<group>";
+		};
+		FDB2E26514E2019A00569C83 /* GData */ = {
+			isa = PBXGroup;
+			children = (
+				FD7AEB9D14E207E300B3D95C /* GDataDefines.h */,
+				FD7AEB9E14E207E300B3D95C /* GDataXMLNode.h */,
+				FD7AEB9F14E207E300B3D95C /* GDataXMLNode.m */,
+			);
+			name = GData;
+			sourceTree = "<group>";
+		};
+		FDB2E26714E2019E00569C83 /* FMDataBase */ = {
+			isa = PBXGroup;
+			children = (
+				FDB2E27B14E2024000569C83 /* SQL.h */,
+				FDB2E27C14E2024000569C83 /* SQL.m */,
+				FDB2E26F14E2021000569C83 /* DatabaseManager.h */,
+				FDB2E27014E2021000569C83 /* DatabaseManager.m */,
+				FDB2E27114E2021000569C83 /* FMDatabaseAdditions.h */,
+				FDB2E27214E2021000569C83 /* FMDatabaseAdditions.m */,
+				FDB2E27314E2021000569C83 /* FMDatabase.h */,
+				FDB2E27414E2021000569C83 /* FMDatabase.m */,
+				FDB2E27514E2021000569C83 /* FMResultSet.h */,
+				FDB2E27614E2021000569C83 /* FMResultSet.m */,
+			);
+			name = FMDataBase;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -364,6 +422,12 @@
 				946B9C0514E0B6B600B9B267 /* icloudStore.m in Sources */,
 				946B9C0A14E0B6CA00B9B267 /* setting.m in Sources */,
 				94CB89E214E0BB230022E6D7 /* client.m in Sources */,
+				FDB2E27714E2021000569C83 /* DatabaseManager.m in Sources */,
+				FDB2E27814E2021000569C83 /* FMDatabaseAdditions.m in Sources */,
+				FDB2E27914E2021000569C83 /* FMDatabase.m in Sources */,
+				FDB2E27A14E2021000569C83 /* FMResultSet.m in Sources */,
+				FDB2E27D14E2024000569C83 /* SQL.m in Sources */,
+				FD7AEBA014E207E300B3D95C /* GDataXMLNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

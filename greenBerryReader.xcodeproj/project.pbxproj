@@ -35,6 +35,8 @@
 		94CB89F114E0BF160022E6D7 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 94CB89EE14E0BF160022E6D7 /* search.png */; };
 		94CB89F714E0C6C20022E6D7 /* more.png in Resources */ = {isa = PBXBuildFile; fileRef = 94CB89F614E0C6C20022E6D7 /* more.png */; };
 		FD7AEBA014E207E300B3D95C /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7AEB9F14E207E300B3D95C /* GDataXMLNode.m */; };
+		FD7AEBA414E2090000B3D95C /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FD7AEBA314E2090000B3D95C /* libsqlite3.0.dylib */; };
+		FD7AEBA614E2091B00B3D95C /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FD7AEBA514E2091B00B3D95C /* libxml2.dylib */; };
 		FDB2E27714E2021000569C83 /* DatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB2E27014E2021000569C83 /* DatabaseManager.m */; };
 		FDB2E27814E2021000569C83 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB2E27214E2021000569C83 /* FMDatabaseAdditions.m */; };
 		FDB2E27914E2021000569C83 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB2E27414E2021000569C83 /* FMDatabase.m */; };
@@ -94,6 +96,8 @@
 		FD7AEB9E14E207E300B3D95C /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
 		FD7AEB9F14E207E300B3D95C /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
 		FD7AEBA214E2080E00B3D95C /* PublicDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicDefine.h; sourceTree = "<group>"; };
+		FD7AEBA314E2090000B3D95C /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		FD7AEBA514E2091B00B3D95C /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		FDB2E26F14E2021000569C83 /* DatabaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseManager.h; sourceTree = "<group>"; };
 		FDB2E27014E2021000569C83 /* DatabaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseManager.m; sourceTree = "<group>"; };
 		FDB2E27114E2021000569C83 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
@@ -111,6 +115,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD7AEBA614E2091B00B3D95C /* libxml2.dylib in Frameworks */,
+				FD7AEBA414E2090000B3D95C /* libsqlite3.0.dylib in Frameworks */,
 				9463BE4A14DF664700ACC57E /* UIKit.framework in Frameworks */,
 				9463BE4C14DF664700ACC57E /* Foundation.framework in Frameworks */,
 				9463BE4E14DF664700ACC57E /* CoreGraphics.framework in Frameworks */,
@@ -152,6 +158,8 @@
 		9463BE4814DF664700ACC57E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FD7AEBA514E2091B00B3D95C /* libxml2.dylib */,
+				FD7AEBA314E2090000B3D95C /* libsqlite3.0.dylib */,
 				9463BE4914DF664700ACC57E /* UIKit.framework */,
 				9463BE4B14DF664700ACC57E /* Foundation.framework */,
 				9463BE4D14DF664700ACC57E /* CoreGraphics.framework */,
@@ -504,6 +512,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "/usr/include/libxml2/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -522,6 +531,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "/usr/include/libxml2/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
